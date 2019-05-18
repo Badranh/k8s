@@ -5,10 +5,9 @@ metadata:
   name: helloworld-services
 spec: 
   ports: 
-    - 
-      port: 80
+    - port: 80
   protocol: TCP
+  targetPort: nodejs-port
   selector: 
     app: helloworld
-  targetPort: nodejs-port
   type: LoadBalancer
