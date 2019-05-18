@@ -9,4 +9,4 @@ spec:
     - image: badranhasan/k8s
       name: k8s-demo
       ports: 
-        - containerPort: 5000
+        - containerPort: 3000
