@@ -10,5 +10,5 @@ spec:
   protocol: TCP
   selector: 
     app: helloworld
-  targertPort: nodejs-port
+  targetPort: nodejs-port
   type: LoadBalancer
