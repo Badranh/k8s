@@ -1,16 +1,13 @@
---- 
 apiVersion: v1
 kind: Pod
-metadata: 
-  labels: 
-    app: helloworld
+metadata:
   name: nodehelloworld.getnetes.xyz
-spec: 
-  containers: 
-    - 
-      image: badranhasan/k8s
-      name: k8s-demo
-      ports: 
-        - 
-          containerPort: 3000
-          name: nodejs-port
+  labels:
+    app: helloworld
+spec:
+  containers:
+  - name: k8s-demo
+    image: badranhasan/k8s
+    ports:
+    - name: nodejs-port
+      containerPort: 3000
