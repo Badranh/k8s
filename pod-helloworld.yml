@@ -6,7 +6,7 @@ metadata:
   name: nodehelloworld.getnetes.xyz
 spec: 
   containers: 
-    - image: badranhasan/kubernetes-demo
+    - image: badranhasan/k8s
       name: k8s-demo
       ports: 
         - containerPort: 5000
